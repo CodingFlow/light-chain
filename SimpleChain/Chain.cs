@@ -1,12 +1,12 @@
 ﻿namespace SimpleChain;
 
-/// <inheritdoc cref="IController{TInput, TOutput}" />
+/// <inheritdoc cref="IChain{TInput, TOutput}" />
 /// <typeparam name="TProcessor">Interface for processors to be used. Recommended to be derived from <see cref="IProcessor{T}"/>.</typeparam>
-public class Controller<TProcessor, TInput, TOutput> : IController<TInput, TOutput> where TProcessor : IProcessor<TInput, TOutput>
+public class Chain<TProcessor, TInput, TOutput> : IChain<TInput, TOutput> where TProcessor : IProcessor<TInput, TOutput>
 {
     private readonly IEnumerable<TProcessor> processors;
 
-    public Controller(IEnumerable<TProcessor> processors) {
+    public Chain(IEnumerable<TProcessor> processors) {
         this.processors = processors;
     }
 

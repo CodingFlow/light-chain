@@ -4,7 +4,7 @@
 /// Orchestrator of the chain of responsibility.
 /// </summary>
 /// <typeparam name="TInput">Object containing inputs to processors.</typeparam>
-public interface IController<TInput, TOutput>
+public interface IChain<TInput, TOutput>
 {
     /// <summary>
     /// Execute the chain of processors with given input. The input is passed to each processor's 
