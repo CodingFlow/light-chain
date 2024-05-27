@@ -1,5 +1,10 @@
 # Light Chain
 
+[![Nuget](https://img.shields.io/nuget/v/LightChain)](https://www.nuget.org/packages/LightChain)
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/CodingFlow/light-chain/pull-request.yml)
+[![Nuget](https://img.shields.io/nuget/dt/LightChain)](https://www.nuget.org/packages/LightChain)
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/CodingFlow)](https://github.com/sponsors/CodingFlow)
+
 Lightweight library for implementing simplified version of [chain of responsibility](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern) in C#.
 
 The inspiration for this library came from figuring out a way to break up `if/else` chains into loosely coupled, separate units to improve maintainability through separation of concerns.
