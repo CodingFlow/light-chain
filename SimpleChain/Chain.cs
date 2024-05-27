@@ -1,4 +1,4 @@
-﻿namespace SimpleChain;
+﻿namespace LightChain;
 
 /// <inheritdoc cref="IChain{TInput, TOutput}" />
 /// <typeparam name="TProcessor">Interface for processors to be used. Recommended to be derived from <see cref="IProcessor{T}"/>.</typeparam>

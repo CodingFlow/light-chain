@@ -1,4 +1,4 @@
-﻿namespace SimpleChain;
+﻿namespace LightChain;
 
 /// <summary>
 /// Orchestrator of the chain of responsibility.

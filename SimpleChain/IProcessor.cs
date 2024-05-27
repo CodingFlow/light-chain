@@ -1,4 +1,4 @@
-﻿namespace SimpleChain;
+﻿namespace LightChain;
 
 /// <summary>
 /// Base processor interface used by the library. All processors must implement this interface.

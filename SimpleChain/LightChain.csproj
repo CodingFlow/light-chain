@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>Light Chain</Title>
+    <Authors>Coding Flow</Authors>
+    <Description>Lightweight library for implementing simplified version of chain of responsibility in C#.
+
+The inspiration for this library came from figuring out a way to break up `if/else` chains into loosely coupled, separate units to improve maintainability through separation of concerns.</Description>
+    <PackageIcon>nuget-package-logo.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/CodingFlow/simple-chain</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>chain;chain-of-responsibility;design;design-patterns;separation-of-concerns;</PackageTags>
+    <PackageReleaseNotes>0.1.0
+- Initial release.</PackageReleaseNotes>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <VersionPrefix>0.1.0</VersionPrefix>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\nuget-package-logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
