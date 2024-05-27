@@ -1,12 +1,8 @@
 # Light Chain
 
-Lightweight library for implementing simplified version of
-[chain of responsibility](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)
-in C#.
+Lightweight library for implementing simplified version of [chain of responsibility](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern) in C#.
 
-The inspiration for this library came from figuring out a way to break up
-`if/else` chains into loosely coupled, separate units to improve maintainability
-through separation of concerns.
+The inspiration for this library came from figuring out a way to break up `if/else` chains into loosely coupled, separate units to improve maintainability through separation of concerns.
 
 Example of `if/else` chain:
 
@@ -37,10 +33,7 @@ public class Main
 }
 ```
 
-As we can see from the example, all the blocks of conditions and processing are
-stuck together in the `if/else` construct within the same class. The `if/else`
-construct itself adds a bit of noise. It is difficult to view and change high
-level concerns only, such as order of each case.
+As we can see from the example, all the blocks of conditions and processing are stuck together in the `if/else` construct within the same class. The `if/else` construct itself adds a bit of noise. It is difficult to view and change high level concerns only, such as order of each case.
 
 # Getting Started
 
@@ -155,17 +148,13 @@ public class Main
 }
 ```
 
-Be aware that the order of the processors in the list matters: the first
-processor whose condition returns `true` will handle returning the output.
+Be aware that the order of the processors in the list matters: the first processor whose condition returns `true` will handle returning the output.
 
 ### Dependency Injection
 
-Using a dependency injection framework, the processor list and chain instance
-can be defined separately from the main class via the dependency injection
-framework.
+Using a dependency injection framework, the processor list and chain instance can be defined separately from the main class via the dependency injection framework.
 
-Using Microsoft.Extensions.DependencyInjection the `Main` class can be
-refactored:
+Using Microsoft.Extensions.DependencyInjection the `Main` class can be refactored:
 
 ```c#
 using LightChain;
@@ -217,8 +206,7 @@ internal static class ServiceRegistrations
 }
 ```
 
-The end result is improved separation of concerns such that the main class no
-longer needs to change due to any modifications related to processors:
+The end result is improved separation of concerns such that the main class no longer needs to change due to any modifications related to processors:
 
 - Adding or removing processors from the chain.
 - Reordering processors in the chain.
