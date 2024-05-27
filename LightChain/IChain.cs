@@ -13,5 +13,5 @@ public interface IChain<TInput, TOutput>
     /// </summary>
     /// <param name="input">Input passed to processors.</param>
     /// <returns>Output of processor able to handle input.</returns>
-    TOutput Run(TInput input);
+    public TOutput Run(TInput input);
 }
