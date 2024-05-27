@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LightChain", "SimpleChain\LightChain.csproj", "{0F65EDD3-359B-41D0-B412-5BC4B130AA2A}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{1EEA11FA-60E3-480A-87F9-BC4279751185}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LightChain", "LightChain\LightChain.csproj", "{F8234EC4-E3F3-4810-8F43-C049F0111E57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0F65EDD3-359B-41D0-B412-5BC4B130AA2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0F65EDD3-359B-41D0-B412-5BC4B130AA2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0F65EDD3-359B-41D0-B412-5BC4B130AA2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0F65EDD3-359B-41D0-B412-5BC4B130AA2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8234EC4-E3F3-4810-8F43-C049F0111E57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8234EC4-E3F3-4810-8F43-C049F0111E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8234EC4-E3F3-4810-8F43-C049F0111E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8234EC4-E3F3-4810-8F43-C049F0111E57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
